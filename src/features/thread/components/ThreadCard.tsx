@@ -20,7 +20,7 @@ interface ThreadCard{
 export  function ThreadCard ( props : ThreadCard) {
     return(
     <>
-    <Box>
+    <Box marginTop={"20px"}>
  
     <div style={{ display:"flex" }}>
     <Image src={ props.author_picture } width={"50px"} height={"50px"}  style={{ borderRadius:"100%" }} ></Image>
