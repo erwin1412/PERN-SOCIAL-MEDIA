@@ -51,47 +51,8 @@ export function ThreadCard() {
             <Text fontSize="xl" fontWeight="bold" mb={4}>
               Create a New Post
             </Text>
-{/*             
+            
             <Box display={"Flex"}>
-              <FormControl isRequired mb={4}>
-                <Input
-                  placeholder="Your Content"
-                  name="content"
-                  onChange={handleChange}
-                  marginRight={"500px"}
-                />
-              </FormControl>
-              <FormControl isRequired mb={4} marginLeft={"10px"} marginRight={"10px"}>
-                <label htmlFor="image">
-                  <Input
-                    type="file"
-                    name="image"
-                    id="image"
-                    onChange={handleChange}
-                    display="none"
-
-                    // marginRight={"10px"}
-                  />
-                  <Button as="span" colorScheme="teal">
-                    <FaImage />
-                  </Button>
-                </label>
-              </FormControl>
-              <Button colorScheme="teal" size="md" marginRight={"30%"} paddingLeft={"10%"} paddingRight={"10%"}>
-                POST
-              </Button>
-            </Box>
-             */}
-            <Box display={"Flex"}>
-
-            {/* <FormControl isRequired>
-              <Input
-                placeholder="Image URL"
-                value={form.content}
-                onChange={handleChange}
-              />
-            </FormControl> */}
-
             <FormControl mb={4}>
                 <Input
                     color={"red"}
@@ -100,9 +61,6 @@ export function ThreadCard() {
                     value={form.content}
                     onChange={handleChange}
                     width={"500px"}
-                    // paddingRight={"500px"}
-                    // paddingLeft={"500px"}
-
                 />
             </FormControl>
             <FormControl mb={4} marginLeft={"10px"}>

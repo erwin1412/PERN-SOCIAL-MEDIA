@@ -19,6 +19,6 @@ export  interface IThread {
 
 
 export  interface IThreadPost {
-    content: string;
-    image: string | Blob | MediaSource | null;
+    content?: string;
+    image?: string | Blob | MediaSource | null;
 }
