@@ -1,0 +1,31 @@
+.login-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .plane {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    animation: fly 8s linear infinite, shadow 8s linear infinite;
+    transform: translate(0, -50%);
+  }
+  
+  @keyframes fly {
+    0% {
+      transform: translate(-100%, -50%);
+    }
+    100% {
+      transform: translate(100%, -50%);
+    }
+  }
+  
+  @keyframes shadow {
+    0%, 100% {
+      transform: scaleX(0.8);
+    }
+    50% {
+      transform: scaleX(1.2);
+    }
+  }
+  
