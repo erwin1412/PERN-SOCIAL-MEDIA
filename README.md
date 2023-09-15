@@ -1,4 +1,6 @@
-# thread-fe = for Front End
+# How to Run
+
+   thread-fe = for Front End
 1. in terminal -> npm i
 2. npm run dev
 
