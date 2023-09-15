@@ -1,0 +1,19 @@
+.link-container {
+    display: flex;
+  }
+  
+  .link-container a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+    transition: background-color 0.3s;
+  }
+  
+  .link-container a.active {
+    background-color: #3498db;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #fff;
+  }
+  
